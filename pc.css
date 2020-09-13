@@ -1,0 +1,81 @@
+body{background-color: #fff;
+    font-size: large;
+    }
+    
+    /*見出し*/
+    h1{
+        font-size: 50px;
+       margin: 0;
+       padding: 1%;
+       width: 100%;
+       height: 8%;
+       position: fixed;
+      }
+    h1 a:link,h1 a:visited,h1 a:hover,h1 a:active{color: #63302d;}
+    h2{font-size: 30px;}
+    
+    /*横メニュー*/
+    ul{
+        list-style-type: none;
+        margin: 1%;
+        padding: 1%;
+        width: 10%;
+        background-color: #f7edeb;
+        position: fixed;
+        height: 100%;
+        overflow: auto;
+      }
+    li{
+        font-size: 20px;
+        line-height: 3;
+      }
+    li  a:link { color: #9e7e7c; }
+    li  a:visited { color: #9e7e7c; }
+    li  a:hover { color: #9e7e7c; 
+      position: relative;
+      bottom: 1px;
+      right: 1px;
+      text-decoration: none;
+      background-color: #fff;
+    }
+    li  a:active { color: #9e7e7c; }
+    li a {text-decoration: none;display: block;}
+    
+    /*本文*/
+    div{width: 60%;height: 100%;
+      background-color: #fff;
+      color: #63302d;
+      line-height: 2;
+    }
+    
+    /*作品リスト*/
+    .list{
+      padding: 2%;
+      border: double 5px #e8d3d1;
+    }
+
+    /*画像*/
+    .image{
+        text-align: center;
+    }
+    
+    /*全体リンク*/
+    a:link { color: #f0c648; }
+    a:visited { color: #96514d; }
+    a:hover { color: #96514d; 
+    position: relative;
+    bottom: 1px;
+    right: 1px;
+    text-decoration: none;}
+    a:active { color: #96514d; }
+    a {text-decoration: none;}
+    
+    /*font*/
+    @font-face{font-family: コーポレート明朝;
+      src: url(https://cldup.com/xjdxknJUFF.woff2), url(https://cldup.com/Wfkrmav6ZI.woff), url(https://cldup.com/owpNPilbJQ.eot);}
+      /*-----------------------------------
+      配布元：http://logotype.jp/osusume-font-corpmin.html
+      ライセンス：https://ja.osdn.net/projects/opensource/wiki/SIL_Open_Font_License_1.1
+      CSS配布：http://uranai.nosv.org/u.php/novel/only_font/
+      -------------------------------------*/
+      *{font-family: コーポレート明朝,Times New Roman,游明朝,游明朝体,serif !important;}

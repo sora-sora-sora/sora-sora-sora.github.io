@@ -1,0 +1,3 @@
+@import url(smart.css) screen and (max-width: 320px); /* 320以下 */
+@import url(tablet.css) screen and (max-width: 768px); /* 768以下 */
+@import url(pc.css) screen and (min-width: 769px); /* 769以上 */
