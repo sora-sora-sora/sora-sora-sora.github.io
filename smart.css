@@ -3,7 +3,8 @@ body{background-color: #fff;
     }
     
     /*見出し*/
-    h1{font-size: 50px;
+    h1{
+        font-size: 50px;
        margin: 0;
        padding: 1%;
        width: 100%;
@@ -51,6 +52,11 @@ body{background-color: #fff;
     .list{
       padding: 2%;
       border: double 5px #e8d3d1;
+    }
+
+    /*画像*/
+    .image{
+        text-align: center;
     }
     
     /*全体リンク*/
